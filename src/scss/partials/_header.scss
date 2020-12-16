@@ -1,10 +1,10 @@
 header {
-    height: 100px;
     width: 100%;
     display: flex;
     flex-direction: column;
     background-color: $secondary;
     border-bottom: 1px solid $primary;
+    padding: 20px 20px 0;
     .logo {
         display: flex;
         justify-content: flex-start;
@@ -13,11 +13,13 @@ header {
             text-decoration: none;
             display: flex;
             align-items: center;
+            margin-bottom: 20px;
             img {
                 width: 100px;
             }
             span {
                 color: $primary;
+                font-size: 25px;
             }
         }
 
@@ -28,9 +30,17 @@ header {
         align-items: center;
         li {
             list-style: none;
+            margin-right: 30px;
+            padding-bottom: 10px;
             a {
                 text-decoration: none;
                 color: $primary;
+            }
+        }
+        .active {           
+            border-bottom: 2px solid $tertiary;
+            a {
+                color: $tertiary;
             }
         }
     }
