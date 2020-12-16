@@ -56,8 +56,8 @@
 
     <!-- MAIN -->
     <main class="container">
-        <!-- PHP 'DATABASE'-->
         <?php 
+        //  PHP 'DATABASE'
             $questions = [
                 'Come state implementando la recente decisione della Corte di giustizia dell\'Unione europea (CGUE) relativa al diritto all\'oblio?',
                 'Come fa Google a proteggere la mia privacy e a tenere le mie informazioni al sicuro?',
@@ -104,16 +104,19 @@
                         <a href="#">
                             Google
                         </a>
+                        <i class="fas fa-circle"></i>
                     </li>
                     <li>
                         <a href="#">
                             Tutto su Google
                         </a>
+                        <i class="fas fa-circle"></i>
                     </li>
                     <li>
                         <a href="#">
                             Privacy
                         </a>
+                        <i class="fas fa-circle"></i>
                     </li>
                     <li>
                         <a href="#">

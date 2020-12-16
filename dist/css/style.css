@@ -40,10 +40,13 @@ header .logo a {
 }
 header .logo a img {
   width: 100px;
+  margin-right: 10px;
 }
 header .logo a span {
   color: #000;
   font-size: 25px;
+  transform: translateY(-2px);
+  opacity: 0.7;
 }
 header nav .navbar {
   display: flex;
@@ -58,6 +61,10 @@ header nav .navbar li {
 header nav .navbar li a {
   text-decoration: none;
   color: #000;
+  opacity: 0.7;
+}
+header nav .navbar li a:hover {
+  color: dodgerblue;
 }
 header nav .navbar .active {
   border-bottom: 2px solid dodgerblue;
@@ -106,13 +113,19 @@ footer .container .links ul {
 }
 footer .container .links ul li {
   list-style: none;
-  padding: 20px 10px;
+  padding: 20px 0;
 }
 footer .container .links ul li a {
   text-decoration: none;
   font-size: 12px;
   color: #000;
   opacity: 0.7;
+}
+footer .container .links ul li i {
+  font-size: 2px;
+  opacity: 0.7;
+  margin: 0 10px;
+  transform: translateY(-4px);
 }
 footer .container .language {
   display: flex;
@@ -137,4 +150,7 @@ footer .container .language .customIcon::after {
   transform: translate(-50%, -50%);
   color: #fff;
   font-size: 10px;
+}
+footer .container .language select {
+  width: 200px;
 }
