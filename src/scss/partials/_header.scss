@@ -5,6 +5,8 @@ header {
     background-color: $secondary;
     border-bottom: 1px solid $primary;
     padding: 20px 20px 0;
+    position: fixed;
+    top: 0;
     .logo {
         display: flex;
         justify-content: flex-start;
@@ -16,14 +18,14 @@ header {
             margin-bottom: 20px;
             img {
                 width: 100px;
-            }
+            };
             span {
                 color: $primary;
                 font-size: 25px;
-            }
+            };
         }
 
-    }
+    };
     nav .navbar {
         display: flex;
         justify-content: flex-start;
@@ -35,13 +37,13 @@ header {
             a {
                 text-decoration: none;
                 color: $primary;
-            }
-        }
+            };
+        };
         .active {           
             border-bottom: 2px solid $tertiary;
             a {
                 color: $tertiary;
-            }
-        }
-    }
-}
+            };
+        };
+    };
+};
